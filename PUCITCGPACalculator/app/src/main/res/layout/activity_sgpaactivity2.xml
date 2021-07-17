@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:background="@color/LightYellow"
+    tools:layout_editor_absoluteX="1dp"
+    tools:layout_editor_absoluteY="1dp"
+    android:fillViewport="true"
+    >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".SGPAActivity2">
+
+
+        <NumberPicker
+            android:id="@+id/numberPicker_c4"
+            android:layout_width="66dp"
+            android:layout_height="63dp"
+            android:layout_marginTop="42dp"
+            android:background="@color/DarkBlue1"
+            android:solidColor="@color/black"
+            app:layout_constraintEnd_toEndOf="@+id/creditH"
+            app:layout_constraintStart_toStartOf="@+id/creditH"
+            app:layout_constraintTop_toBottomOf="@+id/numberPicker_c3"
+            android:theme="@style/AppTheme.Picker"/>
+
+        <NumberPicker
+            android:id="@+id/numberPickr_c5"
+            android:layout_width="66dp"
+            android:layout_height="63dp"
+            android:layout_marginTop="42dp"
+            android:background="@color/DarkBlue1"
+            android:solidColor="@color/black"
+            app:layout_constraintEnd_toEndOf="@+id/creditH"
+            app:layout_constraintStart_toStartOf="@+id/creditH"
+            app:layout_constraintTop_toBottomOf="@+id/numberPicker_c4"
+            android:theme="@style/AppTheme.Picker"/>
+
+        <NumberPicker
+            android:id="@+id/numberPickr_c6"
+            android:layout_width="66dp"
+            android:layout_height="63dp"
+            android:layout_marginTop="42dp"
+            android:background="@color/DarkBlue1"
+            android:solidColor="@color/black"
+            app:layout_constraintEnd_toEndOf="@+id/creditH"
+            app:layout_constraintStart_toStartOf="@+id/creditH"
+            app:layout_constraintTop_toBottomOf="@+id/numberPickr_c5"
+            android:theme="@style/AppTheme.Picker"
+            />
+
+        <NumberPicker
+            android:id="@+id/numberPickr_c7"
+            android:layout_width="66dp"
+            android:layout_height="63dp"
+            android:layout_marginTop="42dp"
+            android:background="@color/DarkBlue1"
+            android:solidColor="@color/black"
+            app:layout_constraintEnd_toEndOf="@+id/creditH"
+            app:layout_constraintStart_toStartOf="@+id/creditH"
+            app:layout_constraintTop_toBottomOf="@+id/numberPickr_c6"
+            android:theme="@style/AppTheme.Picker"
+            />
+
+        <NumberPicker
+            android:id="@+id/numberPickr_c8"
+            android:layout_width="66dp"
+            android:layout_height="63dp"
+            android:layout_marginTop="42dp"
+            android:background="@color/DarkBlue1"
+            android:solidColor="@color/black"
+            app:layout_constraintEnd_toEndOf="@+id/creditH"
+            app:layout_constraintStart_toStartOf="@+id/creditH"
+            app:layout_constraintTop_toBottomOf="@+id/numberPickr_c7"
+            android:theme="@style/AppTheme.Picker"
+            />
+
+        <NumberPicker
+            android:id="@+id/numberPicker_m6"
+            android:layout_width="66dp"
+            android:layout_height="63dp"
+            android:layout_marginTop="42dp"
+            android:background="@color/DarkBlue1"
+            android:solidColor="@color/black"
+            app:layout_constraintEnd_toEndOf="@+id/marks"
+            app:layout_constraintStart_toStartOf="@+id/marks"
+            app:layout_constraintTop_toBottomOf="@+id/numberPicker_m5"
+            android:theme="@style/AppTheme.Picker"
+            />
+
+        <NumberPicker
+            android:id="@+id/numberPicker_m7"
+            android:layout_width="66dp"
+            android:layout_height="63dp"
+            android:layout_marginTop="42dp"
+            android:background="@color/DarkBlue1"
+            android:solidColor="@color/black"
+            app:layout_constraintEnd_toEndOf="@+id/marks"
+            app:layout_constraintStart_toStartOf="@+id/marks"
+            app:layout_constraintTop_toBottomOf="@+id/numberPicker_m6"
+            android:theme="@style/AppTheme.Picker"
+            />
+
+        <NumberPicker
+            android:id="@+id/numberPicker_m8"
+            android:layout_width="66dp"
+            android:layout_height="63dp"
+            android:layout_marginTop="42dp"
+            android:background="@color/DarkBlue1"
+            android:solidColor="@color/black"
+            app:layout_constraintEnd_toEndOf="@+id/marks"
+            app:layout_constraintStart_toStartOf="@+id/marks"
+            app:layout_constraintTop_toBottomOf="@+id/numberPicker_m7"
+            android:theme="@style/AppTheme.Picker"
+            />
+
+        <NumberPicker
+            android:id="@+id/numberPicker_m5"
+            android:layout_width="66dp"
+            android:layout_height="63dp"
+            android:layout_marginTop="42dp"
+            android:background="@color/DarkBlue1"
+            android:solidColor="@color/black"
+            app:layout_constraintEnd_toEndOf="@+id/marks"
+            app:layout_constraintStart_toStartOf="@+id/marks"
+            app:layout_constraintTop_toBottomOf="@+id/numberPicker_m4"
+            android:theme="@style/AppTheme.Picker"
+            />
+
+        <NumberPicker
+            android:id="@+id/numberPicker_m4"
+            android:layout_width="66dp"
+            android:layout_height="63dp"
+            android:layout_marginTop="42dp"
+            android:background="@color/DarkBlue1"
+            android:solidColor="@color/black"
+            app:layout_constraintEnd_toEndOf="@+id/marks"
+            app:layout_constraintStart_toStartOf="@+id/marks"
+            app:layout_constraintTop_toBottomOf="@+id/numberPicker_m3"
+            android:theme="@style/AppTheme.Picker"/>
+
+        <NumberPicker
+            android:id="@+id/numberPicker_m1"
+            android:layout_width="66dp"
+            android:layout_height="63dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/DarkBlue1"
+            android:solidColor="@color/black"
+            app:layout_constraintEnd_toEndOf="@+id/marks"
+            app:layout_constraintStart_toStartOf="@+id/marks"
+            app:layout_constraintTop_toBottomOf="@+id/view"
+            android:theme="@style/AppTheme.Picker"/>
+
+        <NumberPicker
+            android:id="@+id/numberPicker_c1"
+            android:layout_width="66dp"
+            android:layout_height="63dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/DarkBlue1"
+            android:solidColor="@color/black"
+            app:layout_constraintEnd_toEndOf="@+id/creditH"
+            app:layout_constraintStart_toStartOf="@+id/creditH"
+            app:layout_constraintTop_toBottomOf="@+id/view"
+            android:theme="@style/AppTheme.Picker"/>
+
+        <NumberPicker
+            android:id="@+id/numberPicker_c2"
+            android:layout_width="66dp"
+            android:layout_height="63dp"
+            android:layout_marginTop="42dp"
+            android:background="@color/DarkBlue1"
+            android:solidColor="@color/black"
+            app:layout_constraintEnd_toEndOf="@+id/creditH"
+            app:layout_constraintStart_toStartOf="@+id/creditH"
+            app:layout_constraintTop_toBottomOf="@+id/numberPicker_c1"
+            android:theme="@style/AppTheme.Picker"/>
+
+        <NumberPicker
+            android:id="@+id/numberPicker_c3"
+            android:layout_width="66dp"
+            android:layout_height="63dp"
+            android:layout_marginTop="42dp"
+            android:background="@color/DarkBlue1"
+            android:solidColor="@color/black"
+            app:layout_constraintEnd_toEndOf="@+id/creditH"
+            app:layout_constraintStart_toStartOf="@+id/creditH"
+            app:layout_constraintTop_toBottomOf="@+id/numberPicker_c2"
+            android:theme="@style/AppTheme.Picker"/>
+
+        <NumberPicker
+            android:id="@+id/numberPicker_m2"
+            android:layout_width="66dp"
+            android:layout_height="63dp"
+            android:layout_marginTop="42dp"
+            android:background="@color/DarkBlue1"
+            android:solidColor="@color/black"
+            app:layout_constraintEnd_toEndOf="@+id/marks"
+            app:layout_constraintStart_toStartOf="@+id/marks"
+            app:layout_constraintTop_toBottomOf="@+id/numberPicker_m1"
+            android:theme="@style/AppTheme.Picker"/>
+
+        <NumberPicker
+            android:id="@+id/numberPicker_m3"
+            android:layout_width="66dp"
+            android:layout_height="63dp"
+            android:layout_marginTop="42dp"
+            android:background="@color/DarkBlue1"
+            android:solidColor="@color/black"
+            app:layout_constraintEnd_toEndOf="@+id/marks"
+            app:layout_constraintStart_toStartOf="@+id/marks"
+            app:layout_constraintTop_toBottomOf="@+id/numberPicker_m2"
+            android:theme="@style/AppTheme.Picker"/>
+
+        <EditText
+            android:id="@+id/editTextS8"
+            android:layout_width="96dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:autofillHints="hint"
+            android:ems="10"
+            android:hint="Subject 8"
+            android:inputType="textPersonName"
+            android:textColor="@color/black"
+            android:textColorHint="#656161"
+            app:layout_constraintStart_toStartOf="@+id/subject"
+            app:layout_constraintTop_toBottomOf="@+id/editTextS7" />
+
+        <EditText
+            android:id="@+id/editTextS7"
+            android:layout_width="96dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:autofillHints="hint"
+            android:ems="10"
+            android:hint="Subject 7"
+            android:inputType="textPersonName"
+            android:textColor="@color/black"
+            android:textColorHint="#656161"
+            app:layout_constraintStart_toStartOf="@+id/subject"
+            app:layout_constraintTop_toBottomOf="@+id/editTextS6" />
+
+        <EditText
+            android:id="@+id/editTextS6"
+            android:layout_width="96dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:autofillHints="hint"
+            android:ems="10"
+            android:hint="Subject 6"
+            android:inputType="textPersonName"
+            android:textColor="@color/black"
+            android:textColorHint="#656161"
+            app:layout_constraintStart_toStartOf="@+id/subject"
+            app:layout_constraintTop_toBottomOf="@+id/editTextS5" />
+
+        <EditText
+            android:id="@+id/editTextS5"
+            android:layout_width="96dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:autofillHints="hint"
+            android:ems="10"
+            android:hint="Subject 5"
+            android:inputType="textPersonName"
+            android:textColor="@color/black"
+            android:textColorHint="#656161"
+            app:layout_constraintStart_toStartOf="@+id/subject"
+            app:layout_constraintTop_toBottomOf="@+id/editTextS4" />
+
+        <EditText
+            android:id="@+id/editTextS4"
+            android:layout_width="96dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:autofillHints="hint"
+            android:ems="10"
+            android:hint="Subject 4"
+            android:inputType="textPersonName"
+            android:textColor="@color/black"
+            android:textColorHint="#656161"
+            app:layout_constraintStart_toStartOf="@+id/subject"
+            app:layout_constraintTop_toBottomOf="@+id/editTextS3" />
+
+        <EditText
+            android:id="@+id/editTextS2"
+            android:layout_width="96dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:autofillHints="hint"
+            android:ems="10"
+            android:hint="Subject 2"
+            android:inputType="textPersonName"
+            android:textColor="@color/black"
+            android:textColorHint="#656161"
+            app:layout_constraintStart_toStartOf="@+id/subject"
+            app:layout_constraintTop_toBottomOf="@+id/editTextS1" />
+
+        <EditText
+            android:id="@+id/editTextS3"
+            android:layout_width="96dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:autofillHints="hint"
+            android:ems="10"
+            android:hint="Subject 3"
+            android:inputType="textPersonName"
+            android:textColor="@color/black"
+            android:textColorHint="#656161"
+            app:layout_constraintStart_toStartOf="@+id/subject"
+            app:layout_constraintTop_toBottomOf="@+id/editTextS2" />
+
+        <TextView
+            android:id="@+id/subject"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SUBJECTS"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/marks"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MARKS"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/creditH"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/subject"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/creditH"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CREDIT HOURS"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="0dp"
+            android:layout_height="10dp"
+            android:background="@color/DarkBlue1"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/marks"
+            app:layout_constraintVertical_bias="0.026" />
+
+        <EditText
+            android:id="@+id/editTextS1"
+            android:layout_width="96dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="23dp"
+            android:autofillHints="hint"
+            android:ems="10"
+            android:hint="Subject 1"
+            android:inputType="textPersonName"
+            android:textColor="@color/black"
+            android:textColorHint="#656161"
+            app:layout_constraintEnd_toEndOf="@+id/subject"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/view" />
+
+        <Button
+            android:id="@+id/btnResult"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="42dp"
+            android:text="RESULT"
+            app:backgroundTint="@color/LightSeaGreen"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextS8"
+            android:onClick="onResult"
+            />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
