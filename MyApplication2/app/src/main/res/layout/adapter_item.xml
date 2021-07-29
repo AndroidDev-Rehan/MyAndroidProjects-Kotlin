@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/TVnotePV"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/textview_border"
+        android:cursorVisible="false"
+        android:padding="22dp"
+        android:selectAllOnFocus="false"
+        android:shadowColor="#EAE0E0"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Rehan" />
+
+    <ImageView
+        android:id="@+id/deleteIcon"
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_baseline_delete_forever_24"
+        app:layout_constraintBottom_toBottomOf="@+id/TVnotePV"
+        app:layout_constraintEnd_toEndOf="@+id/TVnotePV"
+        app:layout_constraintHorizontal_bias="0.958"
+        app:layout_constraintStart_toStartOf="@+id/TVnotePV"
+        app:layout_constraintTop_toTopOf="@+id/TVnotePV"
+        app:layout_constraintVertical_bias="0.5"
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
