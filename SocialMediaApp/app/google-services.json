@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "375378472299",
+    "project_id": "social-media-app-f700f",
+    "storage_bucket": "social-media-app-f700f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:375378472299:android:b20dddec4f15474615302e",
+        "android_client_info": {
+          "package_name": "com.example.socialmediaapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "375378472299-j6bpj7gg546k3am3unod5f9i6b9pcnpo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDLLV_RuU5uFEDmYGqoqoJPlSdew8u_yB0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "375378472299-j6bpj7gg546k3am3unod5f9i6b9pcnpo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
